@@ -145,8 +145,14 @@ img{
     border-radius: 1rem;
     text-align: center;
     line-height: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 1px;
+    transition: .3s ease-in-out;
 }
 
+.social-icons i:hover{
+    background-color: var(--lead);
+    color: var(--pure-white);
+}
 
 
 
