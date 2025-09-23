@@ -260,6 +260,8 @@ h3{
         transform: translateX(-50%);
      }
      /* SECTION-STYLING */
+     /* HERO SECTION  */
+
      .image-section{
         margin-top: 4rem;
      }
@@ -276,6 +278,11 @@ h3{
 
      .gap-4{
         gap: 4rem;
+     }
+
+     /* SECTION 01 */
+     h2{
+        font-size: 3rem;
      }
 
 }
