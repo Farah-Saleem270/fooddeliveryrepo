@@ -55,7 +55,14 @@ img{
     margin: auto;
     height: 100%;
     display: block;
-    
+}
+
+.p-top{
+    padding-top: 10rem;
+}
+
+.text-center{
+    text-align: center;
 }
 
 /* header styling */
