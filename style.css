@@ -127,7 +127,8 @@ img{
 }
 
 .content,
-.image-section{
+.image-section,
+.ser-card{
     flex: 1;
     flex-basis: 300px;
 }
@@ -184,7 +185,10 @@ h3{
     color: var(--lead);
 }
 
-
+.ser-card h3{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
 
 
 
