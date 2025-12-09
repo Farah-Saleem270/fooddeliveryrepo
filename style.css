@@ -11,77 +11,77 @@
 
 }
 
-body{
+body {
     background-color: var(--eye-ball);
 }
- 
+
 /* basic styling */
 
-:root{
-  --lead: #212121;
-  --gold: #F2BD21;
-  --eye-ball: #FFFDF7;
-  --hint-yellow: #FCF1CC;
-  --pure-white: #FFF;
+:root {
+    --lead: #212121;
+    --gold: #F2BD21;
+    --eye-ball: #FFFDF7;
+    --hint-yellow: #FCF1CC;
+    --pure-white: #FFF;
 }
 
-a{
+a {
     color: var(--lead);
     font-size: 1rem;
 }
- 
-.flex{
+
+.flex {
     display: flex;
     align-items: center;
-     flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
-.wrapper{
+.wrapper {
     max-width: 1200px;
     margin: auto;
     padding: 0 1rem;
 }
 
-.gap-3{
+.gap-3 {
     gap: 3rem;
 }
 
-.gap-2{
+.gap-2 {
     gap: 2rem;
 }
 
-img{
+img {
     max-width: 100%;
     margin: auto;
     height: 100%;
     display: block;
 }
 
-.p-top{
+.p-top {
     padding-top: 10rem;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.mt-4{
+.mt-4 {
     margin-top: 4rem;
 }
 
 /* header styling */
-.navbar{
-     justify-content: space-between;
-     min-height: 14vh;
+.navbar {
+    justify-content: space-between;
+    min-height: 14vh;
 }
 
-.logo{
+.logo {
     font-size: 1.60rem;
     font-weight: 800;
     color: var(--gold);
 }
 
-.btn{
+.btn {
     display: inline-block;
     background-color: var(--gold);
     padding: .9rem 2rem;
@@ -92,17 +92,17 @@ img{
     transition: .3s ease-in-out;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: var(--lead);
 }
 
-.cart-icon{
+.cart-icon {
     color: var(--lead);
     font-size: 1.3rem;
     position: relative;
 }
 
-.cart-icon .cart-value{
+.cart-icon .cart-value {
     position: absolute;
     top: 50%;
     right: -10%;
@@ -116,37 +116,37 @@ img{
     line-height: 20px;
 }
 
-.bar{
+.bar {
     font-size: 1.5rem;
     display: none;
 }
 
-.mobile-menu{
+.mobile-menu {
     display: none;
 }
 
-/* main styling */
-.hero-section{
+/* hero section styling */
+.hero-section {
     min-height: calc(100vh - 14vh);
 }
 
 .content,
 .image-section,
-.ser-card{
+.ser-card {
     flex: 1;
     flex-basis: 300px;
 }
 
-.content h1{
+.content h1 {
     font-size: 5rem;
     color: var(--lead);
 }
 
-.content h1 span{
+.content h1 span {
     color: var(--gold);
 }
 
-.content p{
+.content p {
     color: gray;
     margin: 2rem 0;
 }
@@ -163,38 +163,38 @@ img{
     transition: .3s ease-in-out;
 }
 
-.social-icons i:hover{
+.social-icons i:hover {
     background-color: var(--lead);
     color: var(--pure-white);
 }
 
 /* SECTION 01*/
 
-h5{
+h5 {
     font-size: 1.2rem;
     letter-spacing: .2rem;
     color: var(--gold);
     text-transform: uppercase;
 }
 
-h2{
+h2 {
     font-size: 3.7rem;
     text-transform: capitalize;
     color: var(--lead);
 }
 
-h3{
+h3 {
     font-size: 2rem;
     text-transform: capitalize;
     color: var(--lead);
 }
 
-.ser-card h3{
+.ser-card h3 {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
-.ser-card p{
+.ser-card p {
     color: gray;
 }
 
@@ -202,6 +202,19 @@ h3{
 /* SECTION 02 */
 
 
+.order-card {
+    flex: 1;
+    flex-basis: 300px;
+    background: var(--pure-white);
+    border: .1rem solid var(--gold);
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 8px 8px 8px,
+    rgba(0, 0, 0, 0.05) 8px 8px 8px inset;
+}
+
+.order-card img {
+    width: 15rem;
+}
 
 
 
@@ -229,17 +242,18 @@ h3{
 
 
 @media (max-width: 780px) {
+
     /* HRADER-SLYLING */
-     .linklist, 
-     .destop .btn{
+    .linklist,
+    .destop .btn {
         display: none;
-     }
+    }
 
-     .bar{
+    .bar {
         display: block;
-     }
+    }
 
-     .mobile-menu{
+    .mobile-menu {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -251,42 +265,43 @@ h3{
         padding: 2rem;
         top: 20%;
         left: -100%;
-        border-radius: 2rem;
         background-color: var(--pure-white);
         border: .1rem solid var(--gold);
-        box-shadow: rgba(0, 0, 0, 0.05)  8px 8px 8px,
-        rgba(0, 0, 0, 0.05)  8px 8px 8px inset;
+        border-radius: 2rem;
+        box-shadow: rgba(0, 0, 0, 0.05) 8px 8px 8px,
+            rgba(0, 0, 0, 0.05) 8px 8px 8px inset;
         transition: all .5s ease-in-out;
-     }
+    }
 
-     .mobile-menu-active{
+    .mobile-menu-active {
         left: 50%;
         transform: translateX(-50%);
-     }
-     /* SECTION-STYLING */
-     /* HERO SECTION  */
+    }
 
-     .image-section{
+    /* SECTION-STYLING */
+    /* HERO SECTION  */
+
+    .image-section {
         margin-top: 4rem;
-     }
+    }
 
-     .content h1 {
-         font-size: 3.6rem;
-         padding-top: 3rem;
-        
-     }
+    .content h1 {
+        font-size: 3.6rem;
+        padding-top: 3rem;
 
-     .gap-2{
+    }
+
+    .gap-2 {
         gap: 1.4rem;
-     }
+    }
 
-     .gap-4{
+    .gap-4 {
         gap: 4rem;
-     }
+    }
 
-     /* SECTION 01 */
-     h2{
+    /* SECTION 01 */
+    h2 {
         font-size: 3rem;
-     }
+    }
 
 }
