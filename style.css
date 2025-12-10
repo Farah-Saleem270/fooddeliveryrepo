@@ -204,7 +204,8 @@ h3 {
 
 .order-card {
     flex: 1;
-    flex-basis: 300px;
+    flex-basis: 200px;
+    padding: 0 1rem 2rem 1rem;
     background: var(--pure-white);
     border: .1rem solid var(--gold);
     border-radius: 2rem;
@@ -214,7 +215,49 @@ h3 {
 
 .order-card img {
     width: 15rem;
+    filter: drop-shadow(
+        rgba(0, 0, 0, 0.2) 0 10px 10px
+    );
 }
+
+
+h4{
+    font-size: 1.8rem;
+    color: var(--lead);
+}
+
+
+.order-card .price{
+    font-size: 1.7rem;
+    color: var(--gold);
+    padding: 1.3rem 0 2rem 0;
+}
+
+/* SECTION 03 */
+
+
+.image-container img {
+    max-width: 600px;  /* image ko chota kar deta hai */
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    max-width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
