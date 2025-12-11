@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <!-- fontAwesome link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <!-- swiper.js link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -192,18 +194,30 @@
         </section>
 
         <!-- SECTION 03-->
-         <section>
-         <div class="wrapper p-top flex gap-4">
-         <div class="image-container">
-            <img src="images/delivery-boy-with-phone.png">
-         </div>
+        <section>
+            <div class="wrapper p-top flex gap-3">
+                <div class="image-container">
+                    <img src="images/delivery-boy-with-phone.png">
+                </div>
 
-         <div class="content">
-            <h5>Our reviews</h5>
-            <h2>What they say?</h2>
-         </div>
-         </div>
-         </section>
+                <div class="content">
+                    <h5>Our reviews</h5>
+                    <h2>What they say?</h2>
+
+                    <div class="review-container">
+                        <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"></div>
+                            <!-- <div class="swiper-slide">Slide 2</div>
+                            <div class="swiper-slide">Slide 3</div> -->
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
 
@@ -215,6 +229,14 @@
     <footer>
 
     </footer>
+
+
+
+
+    <!-- swiperjs script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <!-- link main.js file -->
+     <script src="main.js"></script>
 </body>
 
 </html>
