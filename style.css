@@ -287,8 +287,18 @@ h4 {
 }
 
 
+/* SECTION 04 */
 
+.app-container{
+    background: var(--hint-yellow);
+    padding: 2rem 6rem;
+    border-radius: 3rem;
+    gap: 4rem;
+}
 
+.app-container img{
+    width: 30rem;
+}
 
 
 
