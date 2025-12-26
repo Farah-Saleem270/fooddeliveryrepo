@@ -357,7 +357,7 @@ h4 {
         border: .1rem solid var(--gold);
         border-radius: 2rem;
         box-shadow: rgba(0, 0, 0, 0.05) 8px 8px 8px,
-            rgba(0, 0, 0, 0.05) 8px 8px 8px inset;
+        rgba(0, 0, 0, 0.05) 8px 8px 8px inset;
         transition: all .5s ease-in-out;
     }
 
