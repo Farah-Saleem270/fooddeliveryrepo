@@ -19,8 +19,19 @@ cartIcon.addEventListener("click", ()=> {
 
 let productsList =[];
 
+const showCards = () => {
+
+}
+
 const initApp = ()=> {
-  fetch("pr")
+  fetch("products.json").then
+  (response => response.json()).then
+  (data  => {
+    productsList = data;
+  showCards();
+    
+  })
+  
 }
 
 initApp();
