@@ -3,20 +3,20 @@
         "id": 1,
         "name": "Double Beef Burger",
         "price": "$200",
-        "image": "images/burger-pic.png"
+        "image": "images/burger.png"
     },
     
     {
         "id": 2,
         "name": "Veggie Pizza",
         "price": "$10.99",
-        "image": "images/pizza-img.png"
+        "image": "images/pizza.png"
     },
     {
         "id": 3,
         "name": "Fried Chicken",
         "price": "$13.45",
-        "image": "images/friedchicken.jpg"
+        "image": "images/fried-chicken.png"
     },
     {
         "id": 4,
@@ -34,19 +34,19 @@
         "id": 6,
         "name": "Chicken Lasagne",
         "price": "$16.45",
-        "image": "images/lasagne.png"
+        "image": "images/lasagna.png"
     },
     {
         "id": 7,
         "name": "Itallian Spaghetti",
         "price": "$7.65",
-        "image": "images/spaghetti.jpg"
+        "image": "images/spaghetti.png"
     },
     {
         "id": 8,
         "name": "Spring Roll",
         "price": "$9.31",
-        "image": "images/spring-roll.jpg"
+        "image": "images/spring-roll.png"
     }
 
 ]
