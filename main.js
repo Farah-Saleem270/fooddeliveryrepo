@@ -24,6 +24,7 @@ const showCards = () => {
   productsList.forEach(product => {
     const orderCard = document.createElement("div");
     orderCard.classList.add('order-card');
+
     orderCard.innerHTML = `
     <div class="card-img">
     <img src="${product.image}">
@@ -33,17 +34,24 @@ const showCards = () => {
     <a href="#" class="btn card-btn">Add to Card</a>
   `;
     cardList.appendChild(orderCard);
- 
-    const cardBtn = orderCard.document.querySelector(".card-btn");
-    cardBtn.addEventListener("click", ()=> {
-      alert("hi");
+
+    const cardBtn = orderCard.querySelector(".card-btn");
+    
+    cardBtn.addEventListener("click", (e) => {
+      e.preventDefault();
+      addToCard();
     });
-
-
-
 
   })
 }
+
+
+const addToCard = ()=> {
+
+}
+
+
+
 
 const initApp = () => {
   fetch("products.json").then
