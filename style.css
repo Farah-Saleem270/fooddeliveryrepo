@@ -312,6 +312,9 @@ h4 {
     color: var(--lead);
 }
 
+.item .detail{
+    flex: 2;
+}
 .item {
     display: flex;
     align-items: center;
